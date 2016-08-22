@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 2000px;
+    color: #666;
+    font-size: 12px;
+    font-family: Arial;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+em{
+    font-style: normal;
+}
+b{
+    font-weight: normal;
+}
+input{
+    outline: none;
+}
+.clear:before,.clear:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+/*¿ªÊ¼*/
+.wrap{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.middle{
+    width: 980px;
+    margin: 0 auto;
+}
+.middle .head{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: block;
+}
+.middle .head a.regLogo{
+    display: inline-block;
+    background: url(../image/logo2.png) no-repeat;
+    width: 157px;
+    height: 56px;
+    margin-right: 25px;
+}
+.middle .head a.welcome{
+    display: inline-block;
+    background: url(../image/logo3.png) no-repeat;
+    width: 336px;
+    height: 50px;
+}
+.middle .main{
+    background-color: #fff;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 80px;
+}
+.middle .main .adwrap{
+    float: left;
+}
+.middle .main .adwrap img{
+    width: 370px;
+    height: 353px;
+}
+
+
+.logInfor{
+    float: right;
+    width: 320px;
+    margin-right: 30px;
+}
+h3{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #666;
+}
+
+h3 a{
+    color: #f69;
+    text-decoration: underline;
+    float: right;
+    font-weight: normal;
+    padding-right: 3px;
+}
+.main .logInlist{
+    min-height: 68px;
+}
+.main .logInlist p{
+    position: relative;
+}
+.main .logInlist p input{
+    width: 280px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #ddd;
+    color: #999;
+    padding-left: 35px;
+}
+.main .logInlist p .icon{
+    background: url(../image/login1.png) no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-position: 0 0;
+    top: 6px;
+    left: 5px;
+}
+.main .logInlist p .icon2{
+    background: url(../image/login1.png) no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-position: -25px 0;
+    top: 5px;
+    left: 5px;
+}
+.main .logInbox{
+    position: relative;
+}
+.main .logInbox p{
+    line-height: 30px;
+}
+.main .logInbox .picList li{
+    float: left;
+     margin-right: 2px;
+
+}
+.main .logInbox .picList li img{
+    width: 60px;
+    height: 60px;
+}
+.main .logInbox .change{
+    text-decoration: underline;
+    color: #f69;
+    margin-top: 50px;
+}
+.logInwrap .btn{
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+    width: 320px;
+    height: 46px;
+    background-color: #f69;
+    line-height: 46px;
+    cursor: pointer;
+}
+.main .remember{
+    float: left;
+    padding-right: 16px;
+    cursor: pointer;
+    line-height: 30px
+}
+.main .forget a{
+    text-decoration: underline;
+    color: #f69;
+    margin-left: 5px;
+
+}
+.main .forget{
+    line-height: 30px;
+    border-bottom: 1px dotted #ccc;
+    text-decoration: underline;
+    padding-bottom: 5px;
+}
+.main .fastLogin h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight:inherit;
+}
+
+.fastLogin .fast{
+    padding-bottom: 20px;
+}
+.fastLogin .fast a{
+    float: left;
+    width: 100px;
+    height: 35px;
+    background: url(../image/fast.png) no-repeat;
+}
+.fastLogin .fast a.qq{
+    background-position: 0 -120px;
+}
+.fastLogin .fast a.sina{
+    background-position: 0 -160px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.fastLogin .fast a.weixin{
+    background-position: 0 -200px;
+}
+.more h4{
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.more .moreway a{
+    background: url(../image/login1.png) no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.more .moreway a.txwb{
+    background-position: -125px -25px;
+}
+.more .moreway a.dou{
+    background-position: -100px -25px;
+}
+.more .moreway a.ren{
+    background-position: -150px -25px;
+}
+.more .moreway a.baidu{
+    background-position: -75px -25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
